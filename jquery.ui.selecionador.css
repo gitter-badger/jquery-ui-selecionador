@@ -1,0 +1,104 @@
+.ui-selecionador-unselect,
+.ui-selecionador-select{
+	width: 45%;
+	float: left;
+	margin: 0 20px 0 0 ;
+}
+
+/* Listas */
+ul.ui-selecionador-list {
+	min-height: 35px;
+	background: #e7e7e7;
+}
+
+ul.ui-selecionador-list li.ui-selecionador-field{
+	list-style-type: none;
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 10px;
+}
+
+ul.ui-selecionador-list.obrigatorio:empty{
+	background: rgba(240,128,128, 0.5);
+}
+
+/* Label tipos campos */
+ul.ui-selecionador-list>li.numero:after, 
+ul.ui-selecionador-list>li.literal:after, 
+ul.ui-selecionador-list>li.data:after, 
+span.ui-selecionador-type, 
+span.ui-selecionador-limit{
+	font-size: 12px;
+	font-style: italic;
+}
+
+span.ui-selecionador-limit{
+	color: red;
+}
+
+ul.ui-selecionador-list>li.numero:after{
+    content: " (Númerico)";
+}
+
+ul.ui-selecionador-list>li.literal:after{
+    content: " (Literal)";
+}
+
+ul.ui-selecionador-list>li.data:after{
+    content: " (Data)";
+}
+
+
+
+
+
+/*
+div.selecionadorCampos>div{
+	float: left;
+}
+div.selecionados {
+	margin: 0 20px;
+}
+
+// Listas
+ul.lista {
+	margin: 2px 0 10px;
+	border: 1px solid #999;
+	width: 250px;
+	padding: 1px;
+	min-height: 35px;
+}
+
+ul.lista li.campo{
+	list-style-type: none;
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 10px;
+	margin-top: 2px;
+}
+
+ul.lista.obrigatorio:empty{
+	background: rgba(240,128,128, 0.5);
+}
+
+// Label tipos campos
+ul.lista>li.numero:after, ul.lista>li.literal:after, ul.lista>li.data:after, span.tipos, span.limite{
+	font-size: 12px;
+	font-style: italic;
+}
+
+span.limite{
+	color: red;
+}
+
+ul.lista>li.numero:after{
+    content: " (NÃºmerico)";
+}
+
+ul.lista>li.literal:after{
+    content: " (Literal)";
+}
+
+ul.lista>li.data:after{
+    content: " (Data)";
+} */
